@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="comment_bg_normal_wh">#ffffff</color>
+    <color name="comment_bg_highlight_wh">#f4f9fc</color>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    style="?attr/detailBackground">
+    
+	<com.handmark.pulltorefresh.library.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+	    android:id="@+id/layout_root"
+	    android:layout_height="0dp"
+	    android:layout_width="match_parent"
+	    android:layout_weight="1"
+	    android:divider="@null"
+		android:dividerHeight="0dp"
+	    android:scrollingCache="false"
+	    android:animationCache="false"
+	    ptr:ptrOverScroll="false"
+	    ptr:ptrFriction="3.0"
+	    ptr:ptrSmoothScrollDuration="400"
+	    ptr:ptrShowIndicator="false" 
+	    style="?detailBackground"
+	    />
+	
+	<LinearLayout 
+	    android:id="@+id/layout_write_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="9dp"
+        android:paddingRight="9dp"
+        android:paddingTop="9dp"
+        android:paddingBottom="9dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="#199ad1"
+        android:visibility="gone">
+        
+        <EditText android:id="@+id/et_comment"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:minHeight="25dp"
+            android:layout_weight="1"
+            android:hint="@string/hint_write_comment"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:maxLines="5"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:background="#ffffff"
+            android:bufferType="spannable" />
+        
+        <Button android:id="@+id/btn_send_comment"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="6dp"
+            android:text="@string/send_comment"
+            android:textColor="#484848"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/btncomment" />
+        
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,513 @@
+[{
+	"uid": "63",
+	"id": "",
+	"name": "즐겨찾기",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "0",
+	"id": "",
+	"name": "커뮤니티",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "1",
+	"id": "comm_free_talk",
+	"name": "자유게시판",
+	"url": "/list.php?bbs_id=comm_free_talk",
+	"type": "",
+	"depth": "1"
+ }, 
+ {
+	"uid": "2",
+	"id": "comm_friend",
+	"name": "친구사귀기",
+	"url": "/list.php?bbs_id=comm_friend",
+	"type": "location",
+	"depth": "1"
+ }, 
+ {
+	"uid": "3",
+	"id": "comm_find",
+	"name": "사람찾기",
+	"url": "/list.php?bbs_id=comm_find",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "4",
+	"id": "comm_meeting",
+	"name": "모임·행사",
+	"url": "/list.php?bbs_id=comm_meeting",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "5",
+	"id": "comm_sympathy",
+	"name": "세대공감",
+	"url": "/list.php?bbs_id=comm_sympathy",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "6",
+	"id": "comm_help",
+	"name": "서로돕기",
+	"url": "/list.php?bbs_id=comm_help",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "7",
+	"id": "comm_photo",
+	"name": "회원사진첩",
+	"url": "/index.php?mid=comm_photo",
+	"type": "gallery|list",
+	"depth": "1"
+ },
+ {
+	"uid": "8",
+	"id": "",
+	"name": "이야기방",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "9",
+	"id": "story_economy",
+	"name": "경제",
+	"url": "/list.php?bbs_id=story_economy",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "10",
+	"id": "story_society",
+	"name": "사회",
+	"url": "/list.php?bbs_id=story_society",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "11",
+	"id": "story_sports",
+	"name": "스포츠",
+	"url": "/list.php?bbs_id=story_sports",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "12",
+	"id": "story_baby",
+	"name": "임신·육아",
+	"url": "/list.php?bbs_id=story_baby",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "13",
+	"id": "story_family",
+	"name": "가정·생활",
+	"url": "/list.php?bbs_id=story_family",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "14",
+	"id": "story_cook",
+	"name": "요리",
+	"url": "/list.php?bbs_id=story_cook",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "15",
+	"id": "story_cook_self",
+	"name": "자작요리",
+	"url": "/index.php?mid=story_cook_self",
+	"type": "gallery|list",
+	"depth": "1"
+ },
+ {
+	"uid": "16",
+	"id": "story_health",
+	"name": "건강·뷰티",
+	"url": "/list.php?bbs_id=story_health",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "17",
+	"id": "story_food_travel",
+	"name": "맛집·여행",
+	"url": "/list.php?bbs_id=story_food_travel",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "18",
+	"id": "story_car",
+	"name": "자동차",
+	"url": "/list.php?bbs_id=story_car",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "19",
+	"id": "story_photo",
+	"name": "사진방",
+	"url": "/index.php?mid=story_photo",
+	"type": "gallery|tile",
+	"depth": "1"
+ },
+ {
+	"uid": "20",
+	"id": "",
+	"name": "쉬어가는 곳",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "21",
+	"id": "rest_good_writing",
+	"name": "이쁜글·이쁜시",
+	"url": "/list.php?bbs_id=rest_good_writing",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "22",
+	"id": "rest_self_writing",
+	"name": "자작글모음",
+	"url": "/list.php?bbs_id=rest_self_writing",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "23",
+	"id": "rest_humor",
+	"name": "유머·공포",
+	"url": "/list.php?bbs_id=rest_humor",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "24",
+	"id": "rest_fiction",
+	"name": "소설게시판",
+	"url": "/list.php?bbs_id=rest_fiction",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "25",
+	"id": "rest_life_tips",
+	"name": "생활소상식",
+	"url": "/list.php?bbs_id=rest_life_tips",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "26",
+	"id": "rest_my_sound",
+	"name": "노래자랑",
+	"url": "/list.php?bbs_id=rest_my_sound",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "27",
+	"id": "rest_music",
+	"name": "음악게시판",
+	"url": "/list.php?bbs_id=rest_music",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "28",
+	"id": "",
+	"name": "정보교류",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "29",
+	"id": "biz_law",
+	"name": "법률정보",
+	"url": "/list.php?bbs_id=biz_law",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "30",
+	"id": "biz_find_hr",
+	"name": "구인게시판",
+	"url": "/list.php?bbs_id=biz_find_hr",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "31",
+	"id": "biz_find_job",
+	"name": "구직게시판",
+	"url": "/list.php?bbs_id=biz_find_job",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "32",
+	"id": "biz_info",
+	"name": "비지니스정보",
+	"url": "/list.php?bbs_id=biz_info",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "33",
+	"id": "biz_ad",
+	"name": "홍보·광고",
+	"url": "/list.php?bbs_id=biz_ad",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "34",
+	"id": "biz_abroad",
+	"name": "유학·출국",
+	"url": "/list.php?bbs_id=biz_abroad",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "35",
+	"id": "biz_market",
+	"name": "벼룩시장",
+	"url": "/list.php?bbs_id=biz_market",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "36",
+	"id": "biz_realty",
+	"name": "부동산정보",
+	"url": "/list.php?bbs_id=biz_realty",
+	"type": "location",
+	"depth": "1"
+ },
+ {
+	"uid": "37",
+	"id": "",
+	"name": "공부방",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "38",
+	"id": "study_english_bbs",
+	"name": "영어공부",
+	"url": "/list.php?bbs_id=study_english_bbs",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "39",
+	"id": "study_japanese",
+	"name": "일본어공부",
+	"url": "/list.php?bbs_id=study_japanese",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "40",
+	"id": "study_chinese",
+	"name": "중국어공부",
+	"url": "/list.php?bbs_id=study_chinese",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "41",
+	"id": "study_webpro",
+	"name": "웹프로그래밍",
+	"url": "/list.php?bbs_id=study_webpro",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "42",
+	"id": "study_design",
+	"name": "웹디자인",
+	"url": "/list.php?bbs_id=study_design",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "43",
+	"id": "study_sap",
+	"name": "SAP공부",
+	"url": "/list.php?bbs_id=study_sap",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "44",
+	"id": "study_moyiza_apm",
+	"name": "모이자APM",
+	"url": "/list.php?bbs_id=study_moyiza_apm",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "45",
+	"id": "study_com_tip",
+	"name": "컴관련강좌·팁",
+	"url": "/list.php?bbs_id=study_com_tip",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "46",
+	"id": "",
+	"name": "자료실",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "47",
+	"id": "pds_utility",
+	"name": "유틸리티",
+	"url": "/list.php?bbs_id=pds_utility",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "48",
+	"id": "pds_source",
+	"name": "공개소스",
+	"url": "/list.php?bbs_id=pds_source",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "49",
+	"id": "pds_smart_phone",
+	"name": "스마트폰",
+	"url": "/list.php?bbs_id=pds_smart_phone",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "50",
+	"id": "pds_font",
+	"name": "폰트모음",
+	"url": "/list.php?bbs_id=pds_font",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "51",
+	"id": "pds_mr_ring",
+	"name": "MR벨소리",
+	"url": "/list.php?bbs_id=pds_mr_ring",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "52",
+	"id": "pds_images",
+	"name": "이미지",
+	"url": "/list.php?bbs_id=pds_images",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "53",
+	"id": "pds_document",
+	"name": "문서·양식",
+	"url": "/list.php?bbs_id=pds_document",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "54",
+	"id": "pds_etc",
+	"name": "기타자료실",
+	"url": "/list.php?bbs_id=pds_etc",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "55",
+	"id": "pds_request",
+	"name": "자료요청",
+	"url": "/list.php?bbs_id=pds_request",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "56",
+	"id": "",
+	"name": "중국조선족",
+	"url": "",
+	"type": "",
+	"depth": "0"
+ },
+ {
+	"uid": "57",
+	"id": "crcn_yanbian",
+	"name": "조선족 발전동향",
+	"url": "/list.php?bbs_id=crcn_yanbian",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "58",
+	"id": "crcn_photo",
+	"name": "조선족 사진자료",
+	"url": "/list.php?bbs_id=crcn_photo",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "59",
+	"id": "crcn_song",
+	"name": "조선족 노래",
+	"url": "/list.php?bbs_id=crcn_song",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "60",
+	"id": "crcn_history",
+	"name": "조선족 역사문화",
+	"url": "/list.php?bbs_id=crcn_history",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "61",
+	"id": "crcn_column",
+	"name": "조선족 칼럼",
+	"url": "/list.php?bbs_id=crcn_column",
+	"type": "",
+	"depth": "1"
+ },
+ {
+	"uid": "62",
+	"id": "crcn_debate",
+	"name": "조선족 토론방",
+	"url": "/list.php?bbs_id=crcn_debate",
+	"type": "",
+	"depth": "1"
+ }
+]

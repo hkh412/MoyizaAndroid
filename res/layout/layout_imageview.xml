@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    
+    <ProgressBar                
+        android:layout_width="15dp"       
+        android:layout_height="15dp"
+        android:layout_gravity="center"
+        android:id="@+id/imageview_progress" 
+        />
+    
+    <ImageView
+        android:id="@+id/imageview_holder"       
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        />
+
+</FrameLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+	android:layout_height="60dp"
+	>
+	
+    <TextView
+        android:id="@+id/tv_profile_nickname"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="bottom|center_horizontal"
+	    android:layout_marginBottom="20dp"
+	    android:textStyle="bold"
+	    android:textSize="18sp"
+	    style="?writeBoardTextColor"
+	    />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dp"
+	    android:gravity="center_horizontal"
+	    android:orientation="horizontal"
+	    android:visibility="gone">
+	    
+	   	<TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:text="등급:"
+	        />
+	    <TextView
+	        android:id="@+id/tv_profile_level"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="10dp"
+	    	android:textStyle="bold"
+	    	android:textColor="#f80"
+	    	android:text="10"
+	        />
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="10dp"
+	    	android:text="포인트:"
+	        />
+	   	<TextView
+	   	    android:id="@+id/tv_profile_point"
+	        android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_marginLeft="10dp"
+	    	android:textStyle="bold"
+	    	android:textColor="#f80"
+	    	android:text="-20"
+	        />
+
+	</LinearLayout>
+</FrameLayout>

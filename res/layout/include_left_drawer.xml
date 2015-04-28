@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_drawer"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:clickable="true">
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:visibility="gone"
+        style="?listBackground">
+        
+	    <FrameLayout
+	        android:id="@+id/layout_head"
+	        android:layout_width="match_parent"
+	        android:layout_height="60dp"
+	        android:background="@drawable/side_menu_btn_state"
+	        android:gravity="center_horizontal|bottom"
+	        android:clickable="true">
+	        
+	        <include layout="@layout/include_user_profile"
+	            android:id="@+id/layout_profile"
+	            android:visibility="gone"/>
+	        
+			<TextView 
+			    android:id="@+id/tv_login_text"
+	           	android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="bottom|center_horizontal"
+			    android:layout_marginBottom="15dp"
+			    android:text="로그인"
+			    android:textStyle="bold"
+			    android:textSize="18sp"
+			    style="?drawerMenuParentColor"/>
+	        
+	    </FrameLayout>
+    </FrameLayout>
+
+	<ExpandableListView android:id="@+id/drawer_list"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:groupIndicator="@null"
+		android:dividerHeight="0.5dp"
+		style="?drawerMenuList"
+		/>
+</LinearLayout>

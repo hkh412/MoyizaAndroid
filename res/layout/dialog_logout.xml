@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:textSize="20sp"
+	        android:text="로그인 됨"
+	        style="?writeBoardTextColor" />
+        
+        <View android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="bottom"
+            android:background="#3681c0" />
+    </FrameLayout>
+    
+    <include layout="@layout/include_user_profile"/>
+</LinearLayout>

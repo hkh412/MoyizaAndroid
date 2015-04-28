@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+        
+    <!-- Application theme. -->
+    <!-- Application theme. -->
+    <style name="Theme.White" parent="AppBaseTheme">
+        <item name="listBackground">@style/list_bg_wh</item>
+        <item name="listTitleColor">@style/list_title_color_wh</item>
+        <item name="listDateColor">@style/list_date_color_wh</item>
+        <item name="listAuthorColor">@style/list_author_color_wh</item>
+        <item name="listMaskAlpha">@style/list_mask_alpha_wh</item>
+        <item name="listDivider">@style/list_divider_wh</item>
+        <item name="listStyle">@style/list_style_wh</item>
+        
+        <item name="detailBackground">@style/detail_bg_wh</item>
+        <item name="detailHeadAuthorColor">@style/detail_head_author_color_wh</item>
+        <item name="detailHeadTitleColor">@style/detail_head_title_color_wh</item>
+        <item name="detailContentLine">@style/detail_content_line_wh</item>
+        <item name="detailContentColor">@style/detail_content_color_wh</item>
+        <item name="detailCmtcntColor">@style/detail_cmtcnt_color_wh</item>
+        <item name="detailCmtcntBackground">@style/detail_cmtcnt_bg_wh</item>
+        <item name="detailCmtcntLine">@style/detail_cmtcnt_line_wh</item>
+        <item name="detailCommentColor">@style/detail_comment_color_wh</item>
+        
+        <item name="drawerMenuParentBackground">@style/drawer_menu_parent_bg_wh</item>
+        <item name="drawerMenuFavoriteBackground">@style/drawer_menu_favorite_bg_wh</item>
+        <item name="drawerMenuChildBackground">@style/drawer_menu_child_bg_wh</item>
+        <item name="drawerMenuParentColor">@style/drawer_menu_parent_color_wh</item>
+        <item name="drawerMenuChildColor">@style/drawer_menu_child_color_wh</item>
+        <item name="drawerMenuList">@style/drawer_menu_list_wh</item>    
+        
+        <item name="writeBoardTextColor">@style/write_board_text_wh</item>
+        <item name="writeBoardBackground">@style/write_board_bg_wh</item>
+        <item name="writeBoardDivider">@style/write_board_divider_wh</item>
+    </style>
+    
+    <style name="Theme.Black" parent="AppBaseTheme">
+        <item name="listBackground">@style/list_bg_bl</item>
+        <item name="listTitleColor">@style/list_title_color_bl</item>
+        <item name="listDateColor">@style/list_date_color_bl</item>
+        <item name="listAuthorColor">@style/list_author_color_bl</item>
+        <item name="listMaskAlpha">@style/list_mask_alpha_bl</item>
+        <item name="listDivider">@style/list_divider_bl</item>
+        <item name="listStyle">@style/list_style_bl</item>
+        
+        <item name="detailBackground">@style/detail_bg_bl</item>
+        <item name="detailHeadAuthorColor">@style/detail_head_author_color_bl</item>
+        <item name="detailHeadTitleColor">@style/detail_head_title_color_bl</item>
+        <item name="detailContentLine">@style/detail_content_line_bl</item>
+        <item name="detailContentColor">@style/detail_content_color_bl</item>
+        <item name="detailCmtcntColor">@style/detail_cmtcnt_color_bl</item>
+        <item name="detailCmtcntBackground">@style/detail_cmtcnt_bg_bl</item>
+        <item name="detailCmtcntLine">@style/detail_cmtcnt_line_bl</item>
+        <item name="detailCommentColor">@style/detail_comment_color_bl</item>
+        
+        <item name="drawerMenuParentBackground">@style/drawer_menu_parent_bg_bl</item>
+        <item name="drawerMenuFavoriteBackground">@style/drawer_menu_favorite_bg_bl</item>
+        <item name="drawerMenuChildBackground">@style/drawer_menu_child_bg_bl</item>
+        <item name="drawerMenuParentColor">@style/drawer_menu_parent_color_bl</item>
+        <item name="drawerMenuChildColor">@style/drawer_menu_child_color_bl</item>
+        <item name="drawerMenuList">@style/drawer_menu_list_bl</item>
+        
+        <item name="writeBoardTextColor">@style/write_board_text_bl</item>
+        <item name="writeBoardBackground">@style/write_board_bg_bl</item>
+        <item name="writeBoardDivider">@style/write_board_divider_bl</item>
+        
+    </style>
+</resources>

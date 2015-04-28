@@ -1,0 +1,219 @@
+<resources>
+
+    <!-- =============================================================== -->
+	<!-- Black styles -->
+	<!-- =============================================================== -->
+	
+    <style name="list_bg_bl">
+        <item name="android:background">#262626</item>
+    </style>
+
+    <style name="list_title_color_bl">
+        <item name="android:textColor">#f9f9f9</item>
+    </style>
+    
+    <style name="list_date_color_bl">
+        <item name="android:textColor">#929292</item>
+    </style>
+    
+    <style name="list_author_color_bl">
+        <item name="android:textColor">#3681c0</item>
+    </style>
+    
+    <style name="list_divider_bl">
+        <item name="android:divider">#313131</item>
+    </style>
+    
+    <style name="list_style_bl" parent="list_divider_bl">
+        <item name="ptrHeaderTextColor">#ffffff</item>
+    </style> 
+    
+    <style name="list_mask_alpha_bl">
+        <item name="android:alpha">0.2</item>
+    </style>
+    
+   	<style name="detail_bg_bl">
+        <item name="android:background">#262626</item>
+        <item name="ptrHeaderTextColor">#ffffff</item>
+    </style>
+    
+   	<style name="detail_head_author_color_bl">
+        <item name="android:textColor">#3681c0</item>
+    </style>
+    
+    <style name="detail_head_title_color_bl">
+        <item name="android:textColor">#f9f9f9</item>
+    </style>
+
+    <style name="detail_content_line_bl">
+        <item name="android:background">#3b3b3b</item>
+    </style>
+    
+    <style name="detail_content_color_bl">
+        <item name="android:textColor">#d8d8d8</item>
+    </style>
+    
+    <style name="detail_cmtcnt_color_bl">
+        <item name="android:textColor">#f9f9f9</item>
+    </style>
+
+    <style name="detail_cmtcnt_bg_bl">
+        <item name="android:background">#131313</item>
+    </style>
+    
+    <style name="detail_cmtcnt_line_bl">
+        <item name="android:background">#313131</item>
+    </style>
+    
+    <style name="detail_comment_color_bl">
+        <item name="android:textColor">#f9f9f9</item>
+    </style>
+    
+    <style name="drawer_menu_parent_bg_bl">
+        <item name="android:background">@drawable/selector_menu_parent_bg_bl</item>
+    </style>
+    
+    <style name="drawer_menu_favorite_bg_bl">
+        <item name="android:background">@drawable/selector_menu_favorite_bg_bl</item>
+    </style>
+    
+    <style name="drawer_menu_child_bg_bl">
+        <item name="android:background">@drawable/selector_menu_child_bg_bl</item>
+    </style>  
+
+    <style name="drawer_menu_parent_color_bl">
+        <item name="android:textColor">#ffffff</item>
+    </style>   
+    
+    <style name="drawer_menu_child_color_bl">
+        <item name="android:textColor">#ffffff</item>
+    </style>   
+    
+    <style name="drawer_menu_list_bl" parent="list_bg_bl">
+        <item name="android:divider">#000000</item>
+    </style> 
+    
+    <style name="write_board_bg_bl">
+        <item name="android:background">#222222</item>
+    </style> 
+    
+    <style name="write_board_text_bl">
+        <item name="android:textColor">#e5e5e5</item>
+    </style> 
+    
+    <style name="write_board_divider_bl">
+        <item name="android:background">#333333</item>
+    </style> 
+        
+    <!-- =============================================================== -->
+	<!-- White styles -->
+	<!-- =============================================================== -->
+    
+    <style name="list_bg_wh">
+        <item name="android:background">#ffffff</item>
+    </style>
+
+    <style name="list_title_color_wh">
+        <item name="android:textColor">#2c2c2c</item>
+    </style>
+    
+    <style name="list_date_color_wh">
+        <item name="android:textColor">#9b9b9b</item>
+    </style>
+    
+    <style name="list_author_color_wh">
+        <item name="android:textColor">#0a3f8e</item>
+    </style>
+    
+    <style name="list_divider_wh">
+        <item name="android:divider">#dbdbdb</item>
+    </style>
+    
+    <style name="list_style_wh" parent="list_divider_wh">
+        <item name="ptrHeaderTextColor">#000000</item>
+    </style> 
+    
+    <style name="list_mask_alpha_wh">
+        <item name="android:alpha">0.5</item>
+    </style>
+    
+    <style name="detail_bg_wh">
+        <item name="android:background">#ffffff</item>
+        <item name="ptrHeaderTextColor">#000000</item>
+    </style>
+    
+    <style name="detail_head_author_color_wh">
+        <item name="android:textColor">#0b7ab3</item>
+    </style>
+    
+    <style name="detail_head_title_color_wh">
+        <item name="android:textColor">#343434</item>
+    </style>
+    
+    <style name="detail_content_line_wh">
+        <item name="android:background">#dbdbdb</item>
+    </style>
+    
+    <style name="detail_content_color_wh">
+        <item name="android:textColor">#202020</item>
+    </style>
+    
+    <style name="detail_cmtcnt_color_wh">
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="detail_cmtcnt_bg_wh">
+        <item name="android:background">#efefef</item>
+    </style>
+    
+    <style name="detail_cmtcnt_line_wh">
+        <item name="android:background">#e3e3e3</item>
+    </style>
+    
+    <style name="detail_comment_color_wh">
+        <item name="android:textColor">#343434</item>
+    </style>
+    
+    <style name="drawer_menu_parent_bg_wh">
+        <item name="android:background">@drawable/selector_menu_parent_bg_wh</item>
+    </style>
+    
+    <style name="drawer_menu_favorite_bg_wh">
+        <item name="android:background">@drawable/selector_menu_favorite_bg_wh</item>
+    </style>
+    
+    <style name="drawer_menu_child_bg_wh">
+        <item name="android:background">@drawable/selector_menu_child_bg_wh</item>
+    </style>   
+    
+    <style name="drawer_menu_parent_color_wh">
+        <item name="android:textColor">#000000</item>
+    </style>   
+    
+    <style name="drawer_menu_child_color_wh">
+        <item name="android:textColor">#000000</item>
+    </style>   
+    
+    <style name="drawer_menu_list_wh" parent="list_bg_wh">
+    </style>   
+    
+    <style name="write_board_bg_wh">
+        <item name="android:background">#ffffff</item>
+    </style> 
+    
+    <style name="write_board_text_wh">
+        <item name="android:textColor">#000000</item>
+    </style> 
+    
+    <style name="write_board_divider_wh">
+        <item name="android:background">#dbdbdb</item>
+    </style> 
+
+    <style name="userProfileImg">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">3dp</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:scaleType">fitXY</item>
+    </style>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SLRTextView">
+        <attr name="type" format="string"/>
+    </declare-styleable>
+    
+    <attr name="listBackground" format="reference" />
+    <attr name="listTitleColor" format="reference" />
+    <attr name="listDateColor" format="reference" />
+    <attr name="listAuthorColor" format="reference" />
+    <attr name="listDivider" format="reference" />
+    <attr name="listStyle" format="reference" />
+    <attr name="listMaskAlpha" format="reference" />
+    
+    <attr name="detailBackground" format="reference" />
+    <attr name="detailHeadAuthorColor" format="reference" />
+    <attr name="detailHeadTitleColor" format="reference" />
+    <attr name="detailContentLine" format="reference" />
+    <attr name="detailContentColor" format="reference" />
+    <attr name="detailCmtcntColor" format="reference" />
+    <attr name="detailCmtcntBackground" format="reference" />
+    <attr name="detailCmtcntLine" format="reference" />
+    <attr name="detailCommentColor" format="reference" />
+    
+    <attr name="drawerMenuParentBackground" format="reference" />
+    <attr name="drawerMenuFavoriteBackground" format="reference" />
+    <attr name="drawerMenuChildBackground" format="reference" />
+    <attr name="drawerMenuParentColor" format="reference" />
+    <attr name="drawerMenuChildColor" format="reference" />
+    <attr name="drawerMenuList" format="reference" />
+    
+    <attr name="writeBoardTextColor" format="reference" />
+    <attr name="writeBoardBackground" format="reference" />
+    <attr name="writeBoardDivider" format="reference" />
+    
+</resources>

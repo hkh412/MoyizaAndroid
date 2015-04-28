@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">모이자</string>
+    <string name="ad_unit_id">ca-app-pub-8932665111349351/9823022598</string>
+    <string name="ad_unit_interstitial_id">ca-app-pub-8932665111349351/1797561796</string>
+    <string name="action_settings">설정</string>
+    <string name="action_personal">내공간</string>
+    <string name="action_write">글쓰기</string>
+    <string name="action_web">모이자 웹</string>
+    <string name="action_copy_contents">게시글 내용복사</string>
+    <string name="action_view_in_browser">웹브라우저에서 보기</string>
+    <string name="action_copy_url">게시글 링크복사</string>
+    <string name="action_propose">Email 건의 및 버그 신고하기</string>
+    
+	<string name="drawer_open">메뉴 열기</string>
+    <string name="drawer_close">메뉴 닫기</string>
+    <string name="message_empty_post">읽은 글이 없습니다.</string>
+	<string name="message_favorite_added">이(가) 즐겨찾기에 추가 되었습니다.</string>
+	<string name="message_back_button_toast">뒤로가기를 한번 더 누르면 종료됩니다.</string>
+	<string name="message_network_unavailable">네트워크 연결이 원활하지 않습니다. 다시 한번 시도해 주세요.</string>
+	<string name="message_timer_not_reset">댓글쓰기가 너무 빠릅니다. 30초후에 다시 시도해 주세요.</string>
+	<string name="message_too_short_comment">댓글은 최소 5자 이상 작성해야 합니다.</string>
+	<string name="message_alert_no_comment">등록할 댓글을 작성해 주세요.</string>
+	<string name="message_comment_sent">댓글이 등록되었습니다.</string>
+	<string name="message_comment_sent_problem">댓글등록시 문제가 발생했습니다. 다시 한번 시도해 주세요.</string>
+	<string name="message_no_comment">등록된 댓글이 없습니다.</string>
+	<string name="message_link_invalid">잘못된 링크입니다.</string>
+	<string name="message_photo_saved">사진이 저장되었습니다.</string>
+    <string name="message_photo_cannot_save">사진을 저장할 수 없습니다.</string>
+    <string name="message_copy_url_success">게시글 링크가 클립보드에 복사되었습니다.</string>
+    <string name="message_copy_contents_success">게시글 내용이 클립보드에 복사되었습니다.</string>
+    <string name="message_login_success">로그인 되었습니다.</string>
+    <string name="message_logout_success">로그아웃 되었습니다.</string>
+    <string name="message_login_is_processing">로그인 처리 중입니다.</string>
+    <string name="message_logout_is_processing">로그아웃 처리 중입니다.</string>
+    <string name="message_login_fail">로그인 실패했습니다. 다시 시도해 주세요.</string>
+    <string name="message_write_post_alert">글쓰기는 모바일 브라우저에서만 가능합니다. 브라우저로 이동하시겠습니까?</string>
+    <string name="message_web_alert">모이자 웹 버전으로 이동하시겠습니까?</string>
+    <string name="message_suggest_login">*댓글작성은 로그인후 가능합니다.</string>
+    
+    <string name="username">아이디</string>
+    <string name="password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그아웃</string>
+    <string name="cancel">취소</string>
+    <string name="text_member_join">&lt;u>회원가입&lt;/u></string>
+    <string name="image_folder_name">모이자</string>
+	<string name="title_view_count">조회: %s</string>
+    <string name="hint_write_comment">댓글을 작성해 보세요.</string>
+    <string name="send_comment">전송</string>
+    <string name="comment_count"><![CDATA[총 <font color=\'#ea3f03\'>%d</font>개의 댓글이 있습니다.]]></string>
+    
+    <string name="script_remove">$(function(){</string>
+</resources>

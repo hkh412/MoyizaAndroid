@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="false"
+    android:focusable="false"
+    style="?detailBackground">
+    
+    <!-- 헤더 layout -->
+    <include android:id="@+id/layout_header" 
+        layout="@layout/include_board_detail_head" />
+    
+    <!-- 컨텐츠 layout -->
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="8.6dp"
+	    android:paddingRight="8.6dp">
+        
+        <WebView 
+	        android:id="@+id/webview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:longClickable="true"
+	        android:visibility="gone"/>
+                
+        <com.hkh.myz.views.CustomImageView 
+	        android:id="@+id/imageview"
+	    	android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+	        android:layout_marginBottom="10dp"
+		    android:clickable="true"
+		    android:longClickable="true"
+	        android:visibility="gone"/>
+        
+        <com.hkh.myz.views.CustomVideoView
+	        android:id="@+id/videoview"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:longClickable="true"
+	        android:visibility="gone"/>
+        
+        <com.hkh.myz.views.CustomAudioView
+	        android:id="@+id/audioview"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"/>
+        
+        <TextView 
+            android:id="@+id/textview"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:textIsSelectable="true"
+		    android:visibility="gone"
+		    android:textSize="15sp"
+		    style="?detailContentColor"
+		    />
+        
+    </FrameLayout>
+    
+    <!-- 댓글작성은 로그인후 가능합니다. -->
+   	<TextView 
+	    android:id="@+id/tv_suggest_login"
+   	    android:layout_marginTop="16dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="2dp"
+	    android:layout_gravity="center"
+	    android:textSize="12sp"
+	    android:textColor="#ea3f03"
+	    android:text="@string/message_suggest_login"
+	    android:visibility="gone"
+	    />
+        	
+   	<!-- 댓글수 표시 layout -->
+	<LinearLayout 
+	    android:id="@+id/layout_cmtcnt"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    style="?detailCmtcntBackground"
+	    >
+        
+	    <View
+	        android:layout_width="match_parent"
+	        android:layout_height="0.7dp"
+	        android:layout_marginBottom="5dp"
+	        style="?detailCmtcntLine"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/tv_detail_cmtcnt"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textIsSelectable="true"
+	        android:layout_marginBottom="5dp"
+	        android:layout_gravity="center"
+	        style="?detailCmtcntColor"
+	        />
+	    
+	</LinearLayout>
+	
+  	<!-- 댓글 layout -->
+	<com.hkh.myz.views.CommentRow
+	    android:id="@+id/comment_row"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    />
+</LinearLayout>

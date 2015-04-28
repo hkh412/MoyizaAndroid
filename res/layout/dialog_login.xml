@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <FrameLayout 
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center"
+	        android:textSize="20sp"
+	        android:text="모이자 로그인"
+	        style="?writeBoardTextColor" />
+        
+        <View android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_gravity="bottom"
+            android:background="#3681c0" />
+    </FrameLayout>
+    
+    <EditText
+        android:id="@+id/edit_username"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/username"
+        style="?writeBoardTextColor" />
+    
+    <EditText
+        android:id="@+id/edit_password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="@string/password"
+        style="?writeBoardTextColor" />
+
+    <TextView
+        android:id="@+id/tv_member_join"
+       	android:layout_width="wrap_content"
+     	android:layout_height="wrap_content"
+     	android:layout_marginTop="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="8dp"
+     	android:layout_marginBottom="8dp"
+     	android:layout_gravity="right"
+     	android:textSize="14sp"
+     	android:textColor="#3681c0" />
+</LinearLayout>

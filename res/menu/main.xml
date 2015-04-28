@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--     <item -->
+<!--         android:id="@+id/action_personal" -->
+<!--         android:title="@string/action_personal" -->
+<!--         android:icon="@drawable/ic_action_person" -->
+<!--         android:showAsAction="ifRoom|collapseActionView" /> -->
+    
+    <item
+        android:id="@+id/action_write"
+        android:title="@string/action_write"
+        android:showAsAction="always" />
+    
+<!--     <item -->
+<!--         android:id="@+id/action_web" -->
+<!--         android:title="@string/action_web" -->
+<!--         android:icon="@drawable/ic_action_web_site" -->
+<!--         android:showAsAction="never" /> -->
+</menu>
