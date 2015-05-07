@@ -33,12 +33,12 @@ public class QueryListPagingService extends ServiceBase {
 		super.setService(Links.LIST_PAGING_URL, handler, handlerName);
 	}
 	
-	public void setFormParams(String bbsId, String category, String bottom, String regionUrl) {
+	public void setFormParams(String bbsId, String category, int page, String regionUrl) {
 		List<NameValuePair> pairs = new ArrayList<NameValuePair>();
         pairs.add(new BasicNameValuePair("bbs_id", bbsId));                         
         pairs.add(new BasicNameValuePair("category", category));    
         pairs.add(new BasicNameValuePair("mb_no", ""));    
-        pairs.add(new BasicNameValuePair("bottom", bottom));
+        pairs.add(new BasicNameValuePair("page", String.valueOf(page)));
         String country = Util.getValueFromUrl(regionUrl, "country");
         String province = Util.getValueFromUrl(regionUrl, "province");
         String city = Util.getValueFromUrl(regionUrl, "city");

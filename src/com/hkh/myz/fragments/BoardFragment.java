@@ -63,9 +63,9 @@ public class BoardFragment extends SearchableFragment
 	String bbsId = null;
 	
 	/**
-	 * 마지막 게시글 no, List Paging 조회시 사용
+	 * paging number, List Paging 조회시 사용
 	 */
-	String lastPostNo = null;
+	int page = 1;
 	
 	/**
 	 * empty string 혹은 "location"
@@ -203,6 +203,7 @@ public class BoardFragment extends SearchableFragment
 					mContext.getString(R.string.message_network_unavailable), Toast.LENGTH_SHORT).show();
 			return;
 		}
+		page = 2;
 		
 		// set cookies
 		if (!CookieManager.getInstance().hasCookies()) {
@@ -214,9 +215,9 @@ public class BoardFragment extends SearchableFragment
 		Element body = Jsoup.parse(html).body();
         Elements elements = body.select("div.article");
         ArrayList<DataHashMap> newList = ParseUtil.parseBoardElements(elements);	
-        if (newList.size() > 0) {
-        	lastPostNo = newList.get(newList.size()-1).get("postNo");
-        }
+//        if (newList.size() > 0) {
+//        	lastPostNo = newList.get(newList.size()-1).get("postNo");
+//        }
         data.clear();
         data.addAll(newList);
         bbsAdapter.notifyDataSetChanged();
@@ -235,7 +236,7 @@ public class BoardFragment extends SearchableFragment
 		((PagerActivity)mContext).showLoadingIndicator();
 		QueryListPagingService service = new QueryListPagingService(mContext);
 		service.setService("", this, "onQueryPagingResult");
-		service.setFormParams(bbsId, "", lastPostNo, bbsUrl);
+		service.setFormParams(bbsId, "", page, bbsUrl);
 		service.request();
 	}
 	
@@ -255,11 +256,12 @@ public class BoardFragment extends SearchableFragment
 					mContext.getString(R.string.message_network_unavailable), Toast.LENGTH_SHORT).show();
 			return;
 		}
+		page++;
 		
 		ArrayList<DataHashMap> newList = ParseUtil.parseBoardJson(json);
-        if (newList.size() > 0) {
-        	lastPostNo = newList.get(newList.size()-1).get("postNo");
-        }
+//        if (newList.size() > 0) {
+//        	lastPostNo = newList.get(newList.size()-1).get("postNo");
+//        }
         data.addAll(newList);
         bbsAdapter.notifyDataSetChanged();
 	}
