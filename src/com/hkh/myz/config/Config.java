@@ -28,4 +28,9 @@ public class Config {
 	 * 방문한 게시글 저장 리스트의 크기
 	 */
 	public static int LIST_LIMIT = 100;
+	
+	/**
+	 * AD_BUDDIZ THRESHOLD - MainActivity가 10번 실행된 경우 Adbuddiz 전면광고가 노출된다.
+	 */
+	public static int AD_THRESHOLD = 5;
 }

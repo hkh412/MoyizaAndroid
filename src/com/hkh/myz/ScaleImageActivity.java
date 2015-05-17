@@ -61,6 +61,8 @@ public class ScaleImageActivity extends Activity
 		super.onCreate(savedInstanceState);
 		mContext = this;
 		aq = new AQuery(mContext);
+		imageUrls = new ArrayList<String>();
+		
 		options = new DisplayImageOptions.Builder()
 //		.showImageOnLoading(R.drawable.black)
 		.showImageForEmptyUri(R.drawable.ic_empty)
@@ -147,6 +149,9 @@ public class ScaleImageActivity extends Activity
 	@Override
 	public void onClick(View v) {
 		if (v == btnDownload) {
+			if (imageUrls.size() <= currentPosition)
+				return;
+			
 			ImageLoader.getInstance().loadImage(imageUrls.get(currentPosition), new ImageLoadingListener() {
 				@Override
 				public void onLoadingStarted(String imageUri, View view) {

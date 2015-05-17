@@ -10,6 +10,7 @@ import org.jsoup.nodes.Element;
 
 import android.app.ActionBar;
 import android.app.ActionBar.OnNavigationListener;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
@@ -60,6 +61,7 @@ import com.hkh.myz.manager.SharedPreferenceManager;
 import com.hkh.myz.service.QueryPersonalInfoService;
 import com.hkh.myz.util.ParseUtil;
 import com.hkh.myz.util.Util;
+import com.purplebrain.adbuddiz.sdk.AdBuddiz;
 
 /**
  * App: Moyiza.com
@@ -246,6 +248,19 @@ public class MainActivity extends PagerActivity
         }
         adRequest = builder.build();
         mAdView.loadAd(adRequest);
+        
+        // AD provider - adbuddiz.com
+        SharedPreferenceManager spm = SharedPreferenceManager.getInstance(mContext);
+        int viewCnt = spm.getInt("view_count");
+        if (viewCnt >= Config.AD_THRESHOLD) {
+        	spm.putInt("view_count", 0);
+            AdBuddiz.setPublisherKey(mContext.getString(R.string.adbuddiz_pub_key));
+            AdBuddiz.cacheAds((Activity)mContext);
+            AdBuddiz.showAd(this);
+        } else {
+        	viewCnt++;
+        	spm.putInt("view_count", viewCnt);
+        }
 	}
 	
 	/**

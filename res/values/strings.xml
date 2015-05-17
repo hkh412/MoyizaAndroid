@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Moyija</string>
+    <string name="app_name">모이자</string>
     <string name="ad_unit_id">ca-app-pub-8932665111349351/9823022598</string>
     <string name="ad_unit_interstitial_id">ca-app-pub-8932665111349351/1797561796</string>
+    <string name="adbuddiz_pub_key"><![CDATA[7a90ab5b-38f8-464e-a620-69e1c631771d]]></string>
+    
     <string name="action_settings">설정</string>
     <string name="action_personal">내공간</string>
     <string name="action_write">글쓰기</string>
